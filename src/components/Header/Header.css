@@ -56,6 +56,14 @@
     transition: opacity 0.3s ease;
 }
 
+.wolt-button.show-wolt .wolt-logo {
+    opacity: 1;
+}
+
+.wolt-button.show-wolt .button-text {
+    opacity: 0;
+}
+
 @media only screen and (max-width: 768px) {
     .carousel-item1 {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../utils/images/gallery10.jpg);
